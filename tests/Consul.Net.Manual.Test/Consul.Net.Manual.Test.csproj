@@ -76,6 +76,10 @@
       <Project>{6bb4ba77-ad1f-48e2-b68c-bbc2adffdc81}</Project>
       <Name>Consul.Net.API</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\src\Consul.Net.Client.DotNetHttpClient\Consul.Net.Client.DotNetHttpClient.csproj">
+      <Project>{2eceb26a-c99f-44a5-a947-795d1110dcdf}</Project>
+      <Name>Consul.Net.Client.DotNetHttpClient</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

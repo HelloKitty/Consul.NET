@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consul.Net.API", "src\Consu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consul.Net.Manual.Test", "tests\Consul.Net.Manual.Test\Consul.Net.Manual.Test.csproj", "{0E22CDF4-A455-468C-978D-E7F347A6EDE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consul.Net.Client.DotNetHttpClient", "src\Consul.Net.Client.DotNetHttpClient\Consul.Net.Client.DotNetHttpClient.csproj", "{2ECEB26A-C99F-44A5-A947-795D1110DCDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{0E22CDF4-A455-468C-978D-E7F347A6EDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E22CDF4-A455-468C-978D-E7F347A6EDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E22CDF4-A455-468C-978D-E7F347A6EDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECEB26A-C99F-44A5-A947-795D1110DCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECEB26A-C99F-44A5-A947-795D1110DCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECEB26A-C99F-44A5-A947-795D1110DCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECEB26A-C99F-44A5-A947-795D1110DCDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6BB4BA77-AD1F-48E2-B68C-BBC2ADFFDC81} = {82223BC2-FD46-45B7-8714-A1BBB6FACC0E}
 		{0E22CDF4-A455-468C-978D-E7F347A6EDE2} = {FCFAE99C-C28A-44B7-A7BE-F9D5481C35B9}
+		{2ECEB26A-C99F-44A5-A947-795D1110DCDF} = {82223BC2-FD46-45B7-8714-A1BBB6FACC0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {886DD3D7-35E3-42F0-8CE9-74FB5AD7BBD0}
