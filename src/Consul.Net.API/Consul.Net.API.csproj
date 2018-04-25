@@ -2,6 +2,22 @@
 
   <PropertyGroup>
     <TargetFrameworks>net45;netstandard1.1</TargetFrameworks>
+    <Authors>Andrew Blakely, Hello Kitty</Authors>
+    <Company />
+    <Product>Consul.Net</Product>
+    <Copyright>Andrew Blakely</Copyright>
+    <PackageProjectUrl>https://github.com/HelloKitty/Consul.NET</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/HelloKitty/Consul.NET/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/HelloKitty/Consul.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Consul Consul.NET Consul-CSharp Consuldotnet .NET HTTP C# ConsulClient consul.io</PackageTags>
+    <Description>Consul.NET is a .NET implementation of the www.consul.io API. This library contains the service interfaces and JSON models. Include this library to reference the Consul services. (Ex. IConsulCatalogServiceHttpApiService).
+
+If you need to run the client see the *.Client implementations. Built on top of TypeSafe.Http.Net, the automatic typesafe HTTP/REST library, it allows for many HTTP client implementations.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
+    <DocumentationFile>bin\Release\net45\Consul.Net.API.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
